@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jul  7 15:09:23 2022
+# Make data base, printed on Thu Jul 14 16:16:43 2022
 
 # Variables
 
@@ -28,8 +28,6 @@ DESKTOP_SESSION = ubuntu
 XDG_SESSION_CLASS = user
 # environment
 XDG_SESSION_TYPE = x11
-# environment
-VSCODE_LOG_NATIVE = false
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
@@ -53,7 +51,7 @@ _ = /usr/share/code/code
 # makefile (from 'Makefile', line 5)
 CFLAGS = -O -Wall -m32
 # environment
-JOURNAL_STREAM = 8:53036
+JOURNAL_STREAM = 8:362051
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile (from 'Makefile', line 1)
@@ -75,15 +73,11 @@ AUTOJUMP_SOURCED = 1
 # environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
-MANAGERPID = 2070
+MANAGERPID = 50307
 # environment
 P9K_SSH = 0
 # environment
 CLUTTER_IM_MODULE = fcitx
-# environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-49dd8af8-20f9-4115-85dc-0b6efc660c56.sock
 # environment
 LC_NAME = en_HK.UTF-8
 # environment
@@ -91,7 +85,7 @@ VSCODE_CWD = /home/hantao
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/hantao/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PATH = /home/hantao/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hantao/.local/share/JetBrains/Toolbox/scripts
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
@@ -99,7 +93,7 @@ GJS_DEBUG_OUTPUT = stderr
 # environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
-SESSION_MANAGER = local/hantao-Linux:@/tmp/.ICE-unix/2296,unix/hantao-Linux:/tmp/.ICE-unix/2296
+SESSION_MANAGER = local/hantao-Linux:@/tmp/.ICE-unix/73217,unix/hantao-Linux:/tmp/.ICE-unix/73217
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -109,11 +103,9 @@ VIRTUALENVWRAPPER_PYTHON = /usr/bin/python3
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
-VSCODE_LOG_STACK = false
-# environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 0645720249b943d18d82df3966e2e041
+INVOCATION_ID = 50a6254f530d4a909d9dd9295cfa40ac
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -125,7 +117,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 4625
+GIO_LAUNCHED_DESKTOP_FILE_PID = 75674
 # automatic
 %F = $(notdir $%)
 # environment
@@ -133,13 +125,11 @@ DISPLAY = :0
 # environment
 GTK_IM_MODULE = fcitx
 # environment
-VSCODE_PIPE_LOGGING = true
-# environment
 PWD = /home/hantao/CS-Course/CS15-213/labs/1-data
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 2249
+SSH_AGENT_PID = 50479
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -149,7 +139,7 @@ VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 HOME = /home/hantao
 # environment
-VSCODE_CODE_CACHE_PATH = /home/hantao/.config/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
+VSCODE_CODE_CACHE_PATH = /home/hantao/.config/Code/CachedData/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
 # environment
 LOGNAME = hantao
 # environment
@@ -205,7 +195,7 @@ OLDPWD = /home/hantao
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-1c5f4a23-1.68.1-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-1c5f4a23-1.69.1-main.sock
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -263,13 +253,15 @@ LC_IDENTIFICATION = en_HK.UTF-8
 # environment
 AUTOJUMP_ERROR_PATH = /home/hantao/.local/share/autojump/errors.log
 # environment
+IM_CONFIG_CHECK_ENV = 1
+# environment
 LC_ADDRESS = en_HK.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 4625
+VSCODE_PID = 75674
 # variable set hash-table stats:
-# Load=129/1024=13%, Rehash=0, Collisions=18/160=11%
+# Load=125/1024=12%, Rehash=0, Collisions=18/156=12%
 
 # Pattern-specific Variable Values
 
@@ -277,9 +269,9 @@ VSCODE_PID = 4625
 
 # Directories
 
-# . (device 66306, inode 2099937): 17 files, no impossibilities.
+# . (device 66306, inode 2099937): 20 files, no impossibilities.
 
-# 17 files, no impossibilities in 1 directories.
+# 20 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -290,8 +282,7 @@ VSCODE_PID = 4625
 # Not a target:
 bits.c:
 #  Implicit rule search has been done.
- 
-#  Last modified 2019-12-17 04:26:50
+#  Last modified 2022-07-14 16:07:40.868075354
 #  File has been updated.
 #  Successfully updated.
 
@@ -304,6 +295,7 @@ all: btest fshow ishow
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/6=0%
 
+ 
 # Not a target:
 bits.h:
 #  Implicit rule search has been done.
@@ -389,7 +381,7 @@ btestexplicit:
 btest: btest.c bits.c decl.c tests.c btest.h bits.h
 #  Implicit rule search has not been done.
 #  Implicit/static pattern stem: ''
-#  File does not exist.
+#  Last modified 2022-07-14 15:56:04.626479249
 #  File has been updated.
 #  Needs to be updated (-q is set).
 # automatic
@@ -407,7 +399,7 @@ btest: btest.c bits.c decl.c tests.c btest.h bits.h
 # automatic
 # ^ := btest.c bits.c decl.c tests.c btest.h bits.h
 # automatic
-# ? := btest.c bits.c decl.c tests.c btest.h bits.h
+# ? := bits.c
 # variable set hash-table stats:
 # Load=8/32=25%, Rehash=0, Collisions=1/14=7%
 #  recipe to execute (from 'Makefile', line 11):
@@ -436,9 +428,9 @@ ishow.c:
 # strcache buffers: 1 (0) / strings = 27 / storage = 224 B / avg = 8 B
 # current buf: size = 8162 B / used = 224 B / count = 27 / avg = 8 B
 
-# strcache performance: lookups = 50 / hit rate = 46%
+# strcache performance: lookups = 53 / hit rate = 49%
 # hash-table stats:
-# Load=27/8192=0%, Rehash=0, Collisions=1/50=2%
-# Finished Make data base on Thu Jul  7 15:09:23 2022
+# Load=27/8192=0%, Rehash=0, Collisions=1/53=2%
+# Finished Make data base on Thu Jul 14 16:16:43 2022
 
  
